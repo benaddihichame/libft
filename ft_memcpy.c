@@ -1,25 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hbenaddi <hbenaddi@student.42lehavre.fr    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/17 14:51:52 by hbenaddi          #+#    #+#             */
-/*   Updated: 2023/10/19 17:19:23 by hbenaddi         ###   ########.fr       */
+/*   Created: 2023/10/19 17:23:12 by hbenaddi          #+#    #+#             */
+/*   Updated: 2023/10/22 21:11:28 by hbenaddi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* memset est pour qui est utilisée pour initialiser un bloc de mémoire avec une valeur spécifique. */
 
-#include "libft.h"
-
-void	*ft_memset(void *b, int c, size_t len)
+void *memcpy(void *dst, const void *src, size_t n)
 {
-	void	*ptr;
-
-	ptr = b;
-	while (len--)
-		*(unsigned char *)(ptr++) = (unsigned char)c;
-	return (b);
+    
 }
